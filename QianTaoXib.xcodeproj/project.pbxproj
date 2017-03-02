@@ -15,6 +15,8 @@
 		6E0ABC1F1E67BE8F00F5E029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0ABC1D1E67BE8F00F5E029 /* LaunchScreen.storyboard */; };
 		6E0ABC2A1E67BE8F00F5E029 /* QianTaoXibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0ABC291E67BE8F00F5E029 /* QianTaoXibTests.m */; };
 		6E0ABC351E67BE8F00F5E029 /* QianTaoXibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0ABC341E67BE8F00F5E029 /* QianTaoXibUITests.m */; };
+		6E0ABC441E67BEB300F5E029 /* ChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0ABC431E67BEB300F5E029 /* ChildView.m */; };
+		6E0ABC461E67BEC000F5E029 /* ChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0ABC451E67BEC000F5E029 /* ChildView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		6E0ABC301E67BE8F00F5E029 /* QianTaoXibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QianTaoXibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0ABC341E67BE8F00F5E029 /* QianTaoXibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QianTaoXibUITests.m; sourceTree = "<group>"; };
 		6E0ABC361E67BE8F00F5E029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0ABC421E67BEB300F5E029 /* ChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildView.h; sourceTree = "<group>"; };
+		6E0ABC431E67BEB300F5E029 /* ChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildView.m; sourceTree = "<group>"; };
+		6E0ABC451E67BEC000F5E029 /* ChildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,9 @@
 				6E0ABC151E67BE8F00F5E029 /* ViewController.h */,
 				6E0ABC161E67BE8F00F5E029 /* ViewController.m */,
 				6E0ABC181E67BE8F00F5E029 /* Main.storyboard */,
+				6E0ABC421E67BEB300F5E029 /* ChildView.h */,
+				6E0ABC431E67BEB300F5E029 /* ChildView.m */,
+				6E0ABC451E67BEC000F5E029 /* ChildView.xib */,
 				6E0ABC1B1E67BE8F00F5E029 /* Assets.xcassets */,
 				6E0ABC1D1E67BE8F00F5E029 /* LaunchScreen.storyboard */,
 				6E0ABC201E67BE8F00F5E029 /* Info.plist */,
@@ -250,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E0ABC1F1E67BE8F00F5E029 /* LaunchScreen.storyboard in Resources */,
+				6E0ABC461E67BEC000F5E029 /* ChildView.xib in Resources */,
 				6E0ABC1C1E67BE8F00F5E029 /* Assets.xcassets in Resources */,
 				6E0ABC1A1E67BE8F00F5E029 /* Main.storyboard in Resources */,
 			);
@@ -277,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E0ABC171E67BE8F00F5E029 /* ViewController.m in Sources */,
+				6E0ABC441E67BEB300F5E029 /* ChildView.m in Sources */,
 				6E0ABC141E67BE8F00F5E029 /* AppDelegate.m in Sources */,
 				6E0ABC111E67BE8F00F5E029 /* main.m in Sources */,
 			);
